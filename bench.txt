@@ -1,0 +1,24 @@
+
+Objects: 10
+Pointer		Time (microseconds)
+raw	1.667
+my_unique	1.125
+std_unique	0.791
+my_shared	1.875
+std_shared	2
+
+Objects: 1000
+Pointer		Time (microseconds)
+raw	76.375
+my_unique	33.958
+std_unique	32.709
+my_shared	62.917
+std_shared	73.291
+
+Objects: 1000000
+Pointer		Time (microseconds)
+raw	24565
+my_unique	18177.4
+std_unique	16127.5
+my_shared	28588.5
+std_shared	30640.5
